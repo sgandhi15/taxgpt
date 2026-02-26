@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How many total tax records are in the dataset?",
+    "expected_keywords": ["5000", "records"]
+  },
+  {
+    "question": "What taxpayer types are represented in the data?",
+    "expected_keywords": ["individual", "corporation", "partnership", "trust", "non-profit"]
+  },
+  {
+    "question": "What is the average income for corporations?",
+    "expected_keywords": ["corporation", "average", "income"]
+  },
+  {
+    "question": "Which states are included in the tax data?",
+    "expected_keywords": ["CA", "TX", "NY", "FL"]
+  },
+  {
+    "question": "What types of income sources are in the dataset?",
+    "expected_keywords": ["salary", "investment", "capital gains", "rental", "royalties"]
+  },
+  {
+    "question": "What deduction types do individual taxpayers claim?",
+    "expected_keywords": ["individual", "deduction"]
+  },
+  {
+    "question": "What tax years are covered in the data?",
+    "expected_keywords": ["2019", "2020", "2021", "2022", "2023"]
+  },
+  {
+    "question": "Tell me about corporations in California",
+    "expected_keywords": ["corporation", "california", "income", "tax"]
+  },
+  {
+    "question": "What does the IRS Form 1040 cover?",
+    "expected_keywords": ["1040", "tax", "income"]
+  },
+  {
+    "question": "What is the average tax owed by partnerships?",
+    "expected_keywords": ["partnership", "tax", "average"]
+  }
+]
