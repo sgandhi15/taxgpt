@@ -1,42 +1,71 @@
 [
   {
-    "question": "How many total tax records are in the dataset?",
-    "expected_keywords": ["5000", "records"]
+    "question": "What are the federal income tax brackets for 2026?",
+    "expected_keywords": [
+      "58,523",
+      "14%",
+      "33%"
+    ]
   },
   {
-    "question": "What taxpayer types are represented in the data?",
-    "expected_keywords": ["individual", "corporation", "partnership", "trust", "non-profit"]
+    "question": "What are the Nunavut income tax rates for 2026?",
+    "expected_keywords": [
+      "55,801",
+      "4%",
+      "11.5%"
+    ]
   },
   {
-    "question": "What is the average income for corporations?",
-    "expected_keywords": ["corporation", "average", "income"]
+    "question": "What is the top Ontario income tax rate for 2026?",
+    "expected_keywords": [
+      "13.16%",
+      "220,000"
+    ]
   },
   {
-    "question": "Which states are included in the tax data?",
-    "expected_keywords": ["CA", "TX", "NY", "FL"]
+    "question": "What is the TFSA dollar limit for 2026?",
+    "expected_keywords": [
+      "7,000"
+    ]
   },
   {
-    "question": "What types of income sources are in the dataset?",
-    "expected_keywords": ["salary", "investment", "capital gains", "rental", "royalties"]
+    "question": "What is the RRSP dollar limit for 2026?",
+    "expected_keywords": [
+      "33,810"
+    ]
   },
   {
-    "question": "What deduction types do individual taxpayers claim?",
-    "expected_keywords": ["individual", "deduction"]
+    "question": "What does section 118.2 of the Income Tax Act cover?",
+    "expected_keywords": [
+      "medical",
+      "118.2"
+    ]
   },
   {
-    "question": "What tax years are covered in the data?",
-    "expected_keywords": ["2019", "2020", "2021", "2022", "2023"]
+    "question": "Which medical expenses can I claim on my tax return?",
+    "expected_keywords": [
+      "medical",
+      "33099"
+    ]
   },
   {
-    "question": "Tell me about corporations in California",
-    "expected_keywords": ["corporation", "california", "income", "tax"]
+    "question": "Can I claim moving expenses?",
+    "expected_keywords": [
+      "moving",
+      "21900"
+    ]
   },
   {
-    "question": "What does the IRS Form 1040 cover?",
-    "expected_keywords": ["1040", "tax", "income"]
+    "question": "What is the home buyers' amount?",
+    "expected_keywords": [
+      "home buyers",
+      "non-refundable"
+    ]
   },
   {
-    "question": "What is the average tax owed by partnerships?",
-    "expected_keywords": ["partnership", "tax", "average"]
+    "question": "What is the GST rate on restaurant meals?",
+    "expected_keywords": [
+      "outside"
+    ]
   }
 ]

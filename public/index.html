@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, interactive-widget=resizes-content">
+  <title>TaxGPT: Canadian income tax answers</title>
+  <meta name="description" content="Ask about Canadian income tax. Answers from the Income Tax Act and CRA, with sources.">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Link previews in chats and social posts -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="TaxGPT">
+  <meta property="og:title" content="TaxGPT: Canadian income tax answers">
+  <meta property="og:description" content="Ask about Canadian income tax. Answers from the Income Tax Act and CRA, with sources.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -1.4 24 24'%3E%3Cpath fill='%23d52b1e' d='M12 0.8L13.5 3.9L15.4 3L14.7 8.3L17.3 6L17.9 7.4L21.7 6.5L20.5 10L22.4 11.1L17.7 14.6L18.5 16.4L12.75 15.4L12.75 20.4L11.25 20.4L11.25 15.4L5.5 16.4L6.3 14.6L1.6 11.1L3.5 10L2.3 6.5L6.1 7.4L6.7 6L9.3 8.3L8.6 3L10.5 3.9Z'/%3E%3C/svg%3E">
+  <link rel="preload" href="/taxgpt/vendor/fonts/plus-jakarta-sans/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/taxgpt/vendor/fonts/bricolage-grotesque/bricolage-grotesque-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/taxgpt/styles.css">
+  <script type="module" src="/taxgpt/app.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand"><svg class="brand-mark" width="22" height="22" viewBox="0 -1.4 24 24" aria-hidden="true"><path fill="currentColor" d="M12 0.8L13.5 3.9L15.4 3L14.7 8.3L17.3 6L17.9 7.4L21.7 6.5L20.5 10L22.4 11.1L17.7 14.6L18.5 16.4L12.75 15.4L12.75 20.4L11.25 20.4L11.25 15.4L5.5 16.4L6.3 14.6L1.6 11.1L3.5 10L2.3 6.5L6.1 7.4L6.7 6L9.3 8.3L8.6 3L10.5 3.9Z"/></svg>TaxGPT</div>
+      <button class="ghost" type="button" popovertarget="about">About</button>
+      <div class="about" id="about" popover>
+        <h2>About</h2>
+        <p>Answers come from the Income Tax Act (current to October 29, 2026) and CRA pages for 2026. Each one lists its sources.</p>
+        <p>It's general information, not tax advice. Each question is answered on its own.</p>
+        <p>Not affiliated with the CRA or the Government of Canada.</p>
+      </div>
+    </header>
+
+    <div class="thread">
+      <div class="viewport" id="viewport">
+        <main class="column" id="messages">
+          <section class="welcome" id="welcome">
+            <h1>Ask about Canadian income tax</h1>
+            <div class="suggestions" id="suggestions" role="group" aria-label="Example questions">
+              <button class="suggestion" type="button">What are the 2026 federal tax brackets?</button>
+              <button class="suggestion" type="button">What are the 2026 RRSP and TFSA limits?</button>
+              <button class="suggestion" type="button">Which medical expenses can I claim?</button>
+              <button class="suggestion" type="button">Can I deduct home office costs?</button>
+            </div>
+          </section>
+        </main>
+      </div>
+      <button class="jump" id="jump" type="button" aria-label="Jump to latest" hidden>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </button>
+    </div>
+
+    <footer class="dock">
+      <form class="composer" id="composer">
+        <textarea rows="1" aria-label="Your question" placeholder="Ask a tax question" maxlength="1000"></textarea>
+        <button class="send" type="submit" aria-label="Send" disabled>
+          <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+          <svg class="spinner" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-6.2-8.56"/></svg>
+        </button>
+      </form>
+      <noscript><p class="error">TaxGPT needs JavaScript to answer questions.</p></noscript>
+      <div id="turnstile"></div>
+      <div class="visually-hidden" id="live" aria-live="polite"></div>
+      <p class="fine">Not tax advice. Not affiliated with the CRA or the Government of Canada.</p>
+    </footer>
+  </div>
+</body>
+</html>

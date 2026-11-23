@@ -1,0 +1,9 @@
+{
+  // Used only by scripts/ingest.ts, which needs the embedding model and the index
+  // but none of the Worker's other bindings.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "taxgpt-ingest",
+  "compatibility_date": "2026-11-01",
+  "ai": { "binding": "AI", "remote": true },
+  "vectorize": [{ "binding": "VECTORIZE", "index_name": "taxgpt", "remote": true }]
+}

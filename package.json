@@ -1,0 +1,33 @@
+{
+  "name": "taxgpt",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "vendor": "node scripts/vendor-fonts.mjs",
+    "setup": "wrangler vectorize create taxgpt --dimensions=1024 --metric=cosine && wrangler vectorize create-metadata-index taxgpt --propertyName=section --type=string",
+    "ingest": "tsx scripts/ingest.ts",
+    "ingest:dry": "tsx scripts/ingest.ts --dry-run",
+    "types": "wrangler types",
+    "typecheck": "wrangler types && tsc --noEmit && tsc --noEmit -p scripts",
+    "test": "vitest run",
+    "eval": "tsx tests/eval.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.11.0",
+    "hono": "^4.13.19"
+  },
+  "devDependencies": {
+    "@fontsource-variable/bricolage-grotesque": "5.3.0",
+    "@fontsource-variable/plus-jakarta-sans": "5.3.0",
+    "@types/node": "^24.0.0",
+    "domhandler": "^5.0.3",
+    "htmlparser2": "^10.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vitest": "^5.1.1",
+    "wrangler": "^4.165.0"
+  }
+}
