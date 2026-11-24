@@ -11,5 +11,5 @@
     "resolveJsonModule": true,
     "isolatedModules": true
   },
-  "include": ["src", "worker-configuration.d.ts"]
+  "include": ["src", "evals/worker.ts", "worker-configuration.d.ts"]
 }

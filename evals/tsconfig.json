@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022", "DOM"],
+    "types": ["node"],
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "isolatedModules": true
+  },
+  // worker.ts runs in the Workers runtime, so the main tsconfig.json checks it.
+  "include": [".", "../tests/eval-*.test.ts", "../tests/renderer.test.ts", "../worker-configuration.d.ts", "../src/env.d.ts"],
+  "exclude": ["worker.ts", "results"]
+}

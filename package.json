@@ -11,9 +11,16 @@
     "ingest": "tsx scripts/ingest.ts",
     "ingest:dry": "tsx scripts/ingest.ts --dry-run",
     "types": "wrangler types",
-    "typecheck": "wrangler types && tsc --noEmit && tsc --noEmit -p scripts",
+    "typecheck": "wrangler types && tsc --noEmit && tsc --noEmit -p scripts && tsc --noEmit -p evals",
     "test": "vitest run",
-    "eval": "tsx tests/eval.ts"
+    "eval:server": "wrangler dev -c evals/wrangler.jsonc",
+    "eval": "tsx evals/run.ts",
+    "eval:retrieval": "tsx evals/run.ts retrieval",
+    "eval:answers": "tsx evals/run.ts answers",
+    "eval:decline": "tsx evals/run.ts decline",
+    "eval:injection": "tsx evals/run.ts injection",
+    "eval:judges": "tsx evals/run.ts judges",
+    "eval:validate": "tsx evals/validate.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.11.0",

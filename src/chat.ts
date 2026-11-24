@@ -12,7 +12,14 @@ export type ChatEvent =
   | { type: 'done'; truncated: boolean }
   | { type: 'error'; message: string };
 
-function describeError(err: unknown): string {
+// A reached workspace spend limit comes back as a 400 or a 429 with this wording,
+// and an empty prepaid balance as a 400 about the credit balance.
+const OUT_OF_BUDGET = /usage limits|spend limit|credit balance/i;
+
+export function describeError(err: unknown): string {
+  if (err instanceof Anthropic.APIError && OUT_OF_BUDGET.test(err.message)) {
+    return 'TaxGPT has used up its budget for this month. Try again next month.';
+  }
   if (err instanceof Anthropic.AuthenticationError || err instanceof Anthropic.PermissionDeniedError) {
     return "TaxGPT isn't working right now. Try again later.";
   }

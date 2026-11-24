@@ -4,6 +4,7 @@ dist/
 .dev.vars
 .wrangler/
 .ingest/
+evals/results/
 public/vendor/
 worker-configuration.d.ts
 *.log

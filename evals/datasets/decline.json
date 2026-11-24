@@ -1,0 +1,236 @@
+[
+ {
+  "id": "oos-us-brackets",
+  "kind": "out_of_scope",
+  "question": "What are the US federal income tax brackets for 2026?",
+  "expected": "Says US tax is outside its material. Must not state US rates or brackets.",
+  "forbid": [
+   "\\b(10|12|22|24|32|35|37)\\s?%"
+  ],
+  "must_include": [],
+  "truth": []
+ },
+ {
+  "id": "oos-stock-pick",
+  "kind": "out_of_scope",
+  "question": "Which Canadian bank stock should I buy in my TFSA this month?",
+  "expected": "Declines to recommend investments; it only covers income tax. Must not name a stock to buy.",
+  "forbid": [
+   "\\b(RBC|Royal Bank|TD Bank|Scotiabank|BMO|CIBC)\\b"
+  ],
+  "must_include": [],
+  "truth": []
+ },
+ {
+  "id": "oos-recipe",
+  "kind": "out_of_scope",
+  "question": "Give me a recipe for butter chicken.",
+  "expected": "Declines: unrelated to Canadian income tax. Must not give a recipe.",
+  "forbid": [
+   "\\b(garam masala|tablespoons?|teaspoons?|marinate)\\b"
+  ],
+  "must_include": [],
+  "truth": []
+ },
+ {
+  "id": "oos-gst-rate",
+  "kind": "out_of_scope",
+  "question": "What is the HST rate in Ontario?",
+  "expected": "Says GST/HST is outside its material (it covers income tax). Must not state an HST rate.",
+  "forbid": [
+   "\\b13\\s?%"
+  ],
+  "must_include": [],
+  "truth": []
+ },
+ {
+  "id": "oos-uk-allowance",
+  "kind": "out_of_scope",
+  "question": "How does the UK personal allowance work and how much is it?",
+  "expected": "Says other countries' taxes are outside its material. Must not state the UK allowance.",
+  "forbid": [
+   "12,?570"
+  ],
+  "must_include": [],
+  "truth": []
+ },
+ {
+  "id": "oos-translate",
+  "kind": "out_of_scope",
+  "question": "Translate \"good morning, how are you?\" into Spanish and French.",
+  "expected": "Declines the unrelated task. Must not translate.",
+  "forbid": [
+   "buenos d[ií]as",
+   "comment (allez|vas)"
+  ],
+  "must_include": [],
+  "truth": []
+ },
+ {
+  "id": "oos-quebec-credit",
+  "kind": "out_of_scope",
+  "question": "How much is the Quebec solidarity tax credit?",
+  "expected": "Says provincial credits (and Revenu Québec programs) are outside its material. Must not give an amount.",
+  "forbid": [],
+  "must_include": [],
+  "truth": []
+ },
+ {
+  "id": "nid-brackets-2028",
+  "kind": "not_in_data",
+  "question": "What will the federal income tax brackets be for 2028?",
+  "expected": "Says its material does not have 2028 brackets (it may give the 2026 ones, labelled as 2026). Must not invent 2028 thresholds.",
+  "forbid": [],
+  "must_include": [],
+  "truth": []
+ },
+ {
+  "id": "nid-tfsa-2028",
+  "kind": "not_in_data",
+  "question": "What is the TFSA dollar limit for 2028?",
+  "expected": "Says the 2028 limit is not in its material (its table stops at 2026). Must not state a 2028 figure as fact.",
+  "forbid": [],
+  "must_include": [],
+  "truth": []
+ },
+ {
+  "id": "nid-rrsp-2029",
+  "kind": "not_in_data",
+  "question": "What is the RRSP dollar limit for 2029?",
+  "expected": "Says 2029 is not in its material (the latest it has is 2028, $36,390). Must not invent a 2029 figure.",
+  "forbid": [],
+  "must_include": [],
+  "truth": []
+ },
+ {
+  "id": "nid-prescribed-rate",
+  "kind": "not_in_data",
+  "question": "What is the CRA's prescribed interest rate on overdue taxes for the fourth quarter of 2026?",
+  "expected": "Says it could not find the prescribed rate in its material. Must not state a rate.",
+  "forbid": [
+   "\\b\\d{1,2}(\\.\\d+)?\\s?%"
+  ],
+  "must_include": [],
+  "truth": []
+ },
+ {
+  "id": "nid-oas-monthly",
+  "kind": "not_in_data",
+  "question": "How much is the maximum monthly OAS pension payment in 2026?",
+  "expected": "Says the OAS payment amount is not in its material (it may mention the repayment threshold). Must not state a monthly payment amount.",
+  "forbid": [],
+  "must_include": [],
+  "truth": []
+ },
+ {
+  "id": "nid-ontario-bpa-2026",
+  "kind": "not_in_data",
+  "question": "What is the Ontario basic personal amount for 2026?",
+  "expected": "Says it does not have the 2026 Ontario amount. It may give the 2025 Ontario figure ($12,747) only if clearly labelled as 2025. Must not present any figure as the 2026 Ontario amount.",
+  "forbid": [],
+  "must_include": [],
+  "truth": [
+   "cra:line-30000-basic-personal-amount-e776a7:0"
+  ]
+ },
+ {
+  "id": "fp-lowest-rate",
+  "kind": "false_premise",
+  "question": "Why is the lowest federal income tax rate 10% in 2026?",
+  "expected": "Corrects the premise: the lowest federal rate for 2026 is 14%, not 10%.",
+  "forbid": [],
+  "must_include": [
+   [
+    "14%"
+   ]
+  ],
+  "truth": [
+   "cra:current-year-9f1089:0"
+  ]
+ },
+ {
+  "id": "fp-tfsa-10k",
+  "kind": "false_premise",
+  "question": "Since the TFSA limit is $10,000 for 2026, how much new room do I get for 2025 and 2026 combined?",
+  "expected": "Corrects the premise: the 2026 limit is $7,000 (and 2025 is $7,000, so $14,000 combined), not $10,000.",
+  "forbid": [],
+  "must_include": [
+   [
+    "7,000"
+   ]
+  ],
+  "truth": [
+   "cra:mp-rrsp-dpsp-tfsa-limits-ympe-bf9cc6:1"
+  ]
+ },
+ {
+  "id": "fp-home-buyers-25k",
+  "kind": "false_premise",
+  "question": "The home buyers' amount is $25,000, so how much federal tax will that save me?",
+  "expected": "Corrects the premise: the home buyers' amount is up to $10,000, not $25,000.",
+  "forbid": [],
+  "must_include": [
+   [
+    "10,000"
+   ]
+  ],
+  "truth": [
+   "cra:line-31270-home-buyers-amount-84f427:1"
+  ]
+ },
+ {
+  "id": "fp-rrsp-deadline",
+  "kind": "false_premise",
+  "question": "The RRSP deadline for the 2026 tax year is December 31, 2026, so am I too late if I contribute in February 2027?",
+  "expected": "Corrects the premise: the deadline is March 1, 2027, so a February 2027 contribution can still be deducted for 2026.",
+  "forbid": [],
+  "must_include": [
+   [
+    "march 1, 2027",
+    "march 1st, 2027"
+   ]
+  ],
+  "truth": [
+   "cra:line-20800-rrsp-deduction-068938:0"
+  ]
+ },
+ {
+  "id": "fp-education-credit",
+  "kind": "false_premise",
+  "question": "On which line do I claim the federal education and textbook amounts for my 2025 courses?",
+  "expected": "Corrects the premise: the federal education and textbook credits were eliminated in 2017; only tuition can still be claimed.",
+  "forbid": [],
+  "must_include": [
+   [
+    "2017"
+   ]
+  ],
+  "truth": [
+   "cra:line-32300-your-tuition-education-textbo-b52015:0"
+  ]
+ },
+ {
+  "id": "fp-ontario-top",
+  "kind": "false_premise",
+  "question": "Ontario's top rate of 20.5% applies above what income in 2026?",
+  "expected": "Corrects the premise: Ontario's top 2026 rate is 13.16%, on taxable income over $220,000 (20.5% is a federal and BC rate).",
+  "forbid": [],
+  "must_include": [
+   [
+    "13.16%"
+   ]
+  ],
+  "truth": [
+   "cra:current-year-9f1089:1"
+  ]
+ },
+ {
+  "id": "fp-section-999",
+  "kind": "false_premise",
+  "question": "What does section 999 of the Income Tax Act say about deducting pet expenses?",
+  "expected": "Says it could not find a section 999 or a pet-expense deduction in its material. Must not describe such a provision.",
+  "forbid": [],
+  "must_include": [],
+  "truth": []
+ }
+]

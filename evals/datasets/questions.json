@@ -1,0 +1,1761 @@
+[
+ {
+  "id": "rates-federal",
+  "category": "rates",
+  "question": "What are the federal income tax brackets for 2026?",
+  "reference": "2026 federal rates: 14% up to $58,523; 20.5% to $117,045; 26% to $181,440; 29% to $258,482; 33% above.",
+  "must_include": [
+   [
+    "14%"
+   ],
+   [
+    "20.5%"
+   ],
+   [
+    "26%"
+   ],
+   [
+    "29%"
+   ],
+   [
+    "33%"
+   ],
+   [
+    "58,523"
+   ],
+   [
+    "117,045"
+   ],
+   [
+    "181,440"
+   ],
+   [
+    "258,482"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:0"
+   ]
+  ]
+ },
+ {
+  "id": "rates-ab",
+  "category": "rates",
+  "question": "What is Alberta's lowest income tax rate for 2026, and up to what income does it apply?",
+  "reference": "Alberta taxes the first $61,200 of taxable income at 8% in 2026.",
+  "must_include": [
+   [
+    "8%"
+   ],
+   [
+    "61,200"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:0"
+   ]
+  ]
+ },
+ {
+  "id": "rates-bc",
+  "category": "rates",
+  "question": "What are the British Columbia income tax brackets for 2026?",
+  "reference": "BC 2026: 5.6% to $50,363; 7.7% to $100,728; 10.5% to $115,648; 12.29% to $140,430; 14.7% to $190,405; 16.8% to $265,545; 20.5% above.",
+  "must_include": [
+   [
+    "5.6%"
+   ],
+   [
+    "50,363"
+   ],
+   [
+    "12.29%"
+   ],
+   [
+    "20.5%"
+   ],
+   [
+    "265,545"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:0"
+   ]
+  ]
+ },
+ {
+  "id": "rates-mb",
+  "category": "rates",
+  "question": "How many income tax brackets does Manitoba have in 2026 and what are the rates?",
+  "reference": "Three: 10.8% up to $47,564, 12.75% to $101,200, and 17.4% above.",
+  "must_include": [
+   [
+    "10.8%"
+   ],
+   [
+    "12.75%"
+   ],
+   [
+    "17.4%"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:0"
+   ]
+  ]
+ },
+ {
+  "id": "rates-nb",
+  "category": "rates",
+  "question": "What's the top New Brunswick income tax rate in 2026 and at what income does it start?",
+  "reference": "19.5% on taxable income over $193,861.",
+  "must_include": [
+   [
+    "19.5%"
+   ],
+   [
+    "193,861"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:0"
+   ]
+  ]
+ },
+ {
+  "id": "rates-nl",
+  "category": "rates",
+  "question": "What is the highest Newfoundland and Labrador income tax rate for 2026?",
+  "reference": "21.8%, on taxable income over $1,141,275.",
+  "must_include": [
+   [
+    "21.8%"
+   ],
+   [
+    "1,141,275"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:0"
+   ]
+  ]
+ },
+ {
+  "id": "rates-nt",
+  "category": "rates",
+  "question": "What are the Northwest Territories tax rates for 2026?",
+  "reference": "NWT 2026: 5.9% to $53,003; 8.6% to $106,009; 12.2% to $172,346; 14.05% above.",
+  "must_include": [
+   [
+    "5.9%"
+   ],
+   [
+    "8.6%"
+   ],
+   [
+    "12.2%"
+   ],
+   [
+    "14.05%"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:0"
+   ]
+  ]
+ },
+ {
+  "id": "rates-ns",
+  "category": "rates",
+  "question": "What rate does Nova Scotia charge on taxable income between $61,991 and $97,417 in 2026?",
+  "reference": "16.67%.",
+  "must_include": [
+   [
+    "16.67%"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:1"
+   ]
+  ]
+ },
+ {
+  "id": "rates-nu",
+  "category": "rates",
+  "question": "What are the Nunavut income tax rates for 2026?",
+  "reference": "Nunavut 2026: 4% to $55,801; 7% to $111,602; 9% to $181,439; 11.5% above.",
+  "must_include": [
+   [
+    "4%"
+   ],
+   [
+    "7%"
+   ],
+   [
+    "9%"
+   ],
+   [
+    "11.5%"
+   ],
+   [
+    "55,801"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:1"
+   ]
+  ]
+ },
+ {
+  "id": "rates-on",
+  "category": "rates",
+  "question": "What is the top Ontario income tax rate for 2026?",
+  "reference": "13.16% on taxable income over $220,000.",
+  "must_include": [
+   [
+    "13.16%"
+   ],
+   [
+    "220,000"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:1"
+   ]
+  ]
+ },
+ {
+  "id": "rates-pe",
+  "category": "rates",
+  "question": "What are the Prince Edward Island income tax brackets for 2026?",
+  "reference": "PEI 2026: 9.5% to $33,928; 13.47% to $65,820; 16.6% to $106,890; 17.62% to $142,520; 19% to $200,000; 20% above.",
+  "must_include": [
+   [
+    "9.5%"
+   ],
+   [
+    "33,928"
+   ],
+   [
+    "13.47%"
+   ],
+   [
+    "17.62%"
+   ],
+   [
+    "200,000"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:1"
+   ]
+  ]
+ },
+ {
+  "id": "rates-sk",
+  "category": "rates",
+  "question": "What are the Saskatchewan income tax rates for 2026?",
+  "reference": "Saskatchewan 2026: 10.5% to $54,532; 12.5% to $155,805; 14.5% above.",
+  "must_include": [
+   [
+    "10.5%"
+   ],
+   [
+    "12.5%"
+   ],
+   [
+    "14.5%"
+   ],
+   [
+    "54,532"
+   ],
+   [
+    "155,805"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:1"
+   ]
+  ]
+ },
+ {
+  "id": "rates-yt",
+  "category": "rates",
+  "question": "What is the top Yukon income tax rate in 2026, and above what income does it apply?",
+  "reference": "15% on taxable income over $500,000.",
+  "must_include": [
+   [
+    "15%"
+   ],
+   [
+    "500,000"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:1"
+   ]
+  ]
+ },
+ {
+  "id": "rates-qc",
+  "category": "rates",
+  "question": "What are the Quebec provincial income tax rates for 2026?",
+  "reference": "The CRA page does not list Quebec's rates; it refers readers to Revenu Québec. The assistant should say it does not have them and point there.",
+  "must_include": [
+   [
+    "revenu québec",
+    "revenu quebec"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:1"
+   ]
+  ],
+  "note": "Expected to say the rates are not in its material; any Quebec rate figure would be invented."
+ },
+ {
+  "id": "rates-indexation",
+  "category": "rates",
+  "question": "By what percentage were federal tax brackets and credit amounts indexed for 2026?",
+  "reference": "2.0% for 2026 (2.7% for 2025).",
+  "must_include": [
+   [
+    "2.0%",
+    "2%",
+    "2.0 %"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:0"
+   ]
+  ]
+ },
+ {
+  "id": "limits-tfsa-2026",
+  "category": "limits",
+  "question": "What is the TFSA dollar limit for 2026?",
+  "reference": "$7,000.",
+  "must_include": [
+   [
+    "7,000"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:mp-rrsp-dpsp-tfsa-limits-ympe-bf9cc6:1",
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:2"
+   ]
+  ]
+ },
+ {
+  "id": "limits-rrsp-2026",
+  "category": "limits",
+  "question": "What is the RRSP dollar limit for 2026?",
+  "reference": "$33,810.",
+  "must_include": [
+   [
+    "33,810"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:mp-rrsp-dpsp-tfsa-limits-ympe-bf9cc6:0"
+   ]
+  ]
+ },
+ {
+  "id": "limits-rrsp-2027",
+  "category": "limits",
+  "question": "What will the RRSP dollar limit be for 2027?",
+  "reference": "$35,390.",
+  "must_include": [
+   [
+    "35,390"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:mp-rrsp-dpsp-tfsa-limits-ympe-bf9cc6:0"
+   ]
+  ]
+ },
+ {
+  "id": "limits-rrsp-deadline",
+  "category": "limits",
+  "question": "What is the deadline to contribute to my RRSP if I want to deduct it on my 2026 return?",
+  "reference": "March 1, 2027.",
+  "must_include": [
+   [
+    "march 1, 2027",
+    "1 march 2027",
+    "march 1st, 2027"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-20800-rrsp-deduction-068938:0"
+   ]
+  ]
+ },
+ {
+  "id": "limits-fhsa",
+  "category": "limits",
+  "question": "How much can I contribute to a first home savings account each year, and what is the lifetime limit?",
+  "reference": "The Act sets an annual FHSA limit of $8,000 (plus carryforward of up to $8,000 of unused room) and a lifetime limit of $40,000.",
+  "must_include": [
+   [
+    "8,000"
+   ],
+   [
+    "40,000"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:146.6:0",
+    "ita:146.6:1"
+   ],
+   [
+    "ita:146.6:6"
+   ]
+  ],
+  "note": "Known thin area: the figures are only in the Act, not on a CRA page."
+ },
+ {
+  "id": "limits-ympe-2026",
+  "category": "limits",
+  "question": "What are the YMPE and YAMPE for 2026?",
+  "reference": "YMPE $74,600 and YAMPE $85,000 for 2026.",
+  "must_include": [
+   [
+    "74,600"
+   ],
+   [
+    "85,000"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:mp-rrsp-dpsp-tfsa-limits-ympe-bf9cc6:0"
+   ]
+  ]
+ },
+ {
+  "id": "limits-cpp-employee-2026",
+  "category": "limits",
+  "question": "What is the CPP contribution rate and the maximum employee contribution for 2026?",
+  "reference": "5.95%, with a maximum employee (and employer) contribution of $4,230.45 on maximum pensionable earnings of $74,600.",
+  "must_include": [
+   [
+    "5.95%",
+    "5.95 %",
+    "5.95"
+   ],
+   [
+    "4,230.45"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:cpp-contribution-rates-maximums-exemptio-34bc27:0"
+   ]
+  ]
+ },
+ {
+  "id": "limits-cpp-selfemployed-2026",
+  "category": "limits",
+  "question": "What is the maximum CPP contribution for a self-employed person in 2026?",
+  "reference": "$8,460.90.",
+  "must_include": [
+   [
+    "8,460.90"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:cpp-contribution-rates-maximums-exemptio-34bc27:0"
+   ]
+  ]
+ },
+ {
+  "id": "limits-ei-2026",
+  "category": "limits",
+  "question": "What are the EI premium rate and maximum insurable earnings for 2026?",
+  "reference": "1.63% on maximum insurable earnings of $68,900; maximum employee premium $1,123.07.",
+  "must_include": [
+   [
+    "1.63%",
+    "1.63"
+   ],
+   [
+    "68,900"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:ei-premium-rates-maximums-5feb1f:0"
+   ]
+  ]
+ },
+ {
+  "id": "limits-tfsa-2015",
+  "category": "limits",
+  "question": "What was the TFSA dollar limit in 2015?",
+  "reference": "$10,000.",
+  "must_include": [
+   [
+    "10,000"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:mp-rrsp-dpsp-tfsa-limits-ympe-bf9cc6:1"
+   ]
+  ]
+ },
+ {
+  "id": "limits-mp-dpsp-2026",
+  "category": "limits",
+  "question": "What are the money purchase and DPSP limits for 2026?",
+  "reference": "Money purchase limit $35,390; DPSP limit $17,695 (half the MP limit).",
+  "must_include": [
+   [
+    "35,390"
+   ],
+   [
+    "17,695"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:mp-rrsp-dpsp-tfsa-limits-ympe-bf9cc6:0"
+   ]
+  ]
+ },
+ {
+  "id": "limits-lcge-2026",
+  "category": "limits",
+  "question": "What is the lifetime capital gains exemption limit for 2026?",
+  "reference": "$1,275,000 for qualified farm or fishing property and qualified small business corporation shares (deduction limit $637,500).",
+  "must_include": [
+   [
+    "1,275,000"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:3"
+   ]
+  ]
+ },
+ {
+  "id": "limits-hbp",
+  "category": "limits",
+  "question": "How much can I withdraw from my RRSP under the Home Buyers' Plan?",
+  "reference": "The Act caps eligible HBP withdrawals at $60,000.",
+  "must_include": [
+   [
+    "60,000"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:146.01:3",
+    "ita:146.01:5"
+   ]
+  ]
+ },
+ {
+  "id": "limits-tfsa-overcontribution",
+  "category": "limits",
+  "question": "What is the tax on an over-contribution to a TFSA?",
+  "reference": "1% per month of the highest excess TFSA amount in that month (ITA s. 207.02).",
+  "must_include": [
+   [
+    "1%"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:207.02:0"
+   ]
+  ]
+ },
+ {
+  "id": "limits-rrsp-overcontribution",
+  "category": "limits",
+  "question": "What tax applies if I over-contribute to my RRSP?",
+  "reference": "1% per month on the cumulative excess amount (ITA s. 204.1).",
+  "must_include": [
+   [
+    "1%"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:204.1:0"
+   ]
+  ]
+ },
+ {
+  "id": "credits-bpa-2026",
+  "category": "credits",
+  "question": "What is the federal basic personal amount for 2026?",
+  "reference": "For 2026 the maximum basic personal amount is $16,452 (net income at or below the start of the 29% bracket), reducing to $14,829 for net income at or above the start of the 33% bracket.",
+  "must_include": [
+   [
+    "16,452"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:0"
+   ]
+  ],
+  "note": "The 2026 figure is only on the indexation page; the line 30000 page gives 2025 ($16,129)."
+ },
+ {
+  "id": "credits-age-2026",
+  "category": "credits",
+  "question": "How much is the age amount for 2026 and at what income does it start to be reduced?",
+  "reference": "$9,208, reduced once net income exceeds $46,432.",
+  "must_include": [
+   [
+    "9,208"
+   ],
+   [
+    "46,432"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:1"
+   ]
+  ]
+ },
+ {
+  "id": "credits-employment-2026",
+  "category": "credits",
+  "question": "What is the maximum Canada employment amount for 2026?",
+  "reference": "$1,501.",
+  "must_include": [
+   [
+    "1,501"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:1"
+   ]
+  ]
+ },
+ {
+  "id": "credits-disability-2026",
+  "category": "credits",
+  "question": "What is the disability amount for 2026, and the supplement for children?",
+  "reference": "$10,341, with a maximum supplement of $6,032 for children with disabilities.",
+  "must_include": [
+   [
+    "10,341"
+   ],
+   [
+    "6,032"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:1"
+   ]
+  ]
+ },
+ {
+  "id": "credits-medical-threshold-2026",
+  "category": "credits",
+  "question": "For 2026, what is the dollar ceiling on the 3%-of-net-income threshold for the medical expense tax credit?",
+  "reference": "$2,890 for 2026.",
+  "must_include": [
+   [
+    "2,890"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:2"
+   ]
+  ]
+ },
+ {
+  "id": "credits-home-buyers",
+  "category": "credits",
+  "question": "How much is the home buyers' amount?",
+  "reference": "Up to $10,000 for the purchase of a qualifying home (a non-refundable credit).",
+  "must_include": [
+   [
+    "10,000"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-31270-home-buyers-amount-84f427:1",
+    "cra:line-31270-home-buyers-amount-84f427:2",
+    "ita:118.05:1"
+   ]
+  ]
+ },
+ {
+  "id": "credits-ctc",
+  "category": "credits",
+  "question": "How does the Canada training credit limit build up?",
+  "reference": "It grows by $250 for each year you qualify, to a lifetime maximum of $5,000.",
+  "must_include": [
+   [
+    "250"
+   ],
+   [
+    "5,000"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-45350-canada-training-credit-0e8b09:0",
+    "ita:122.91:1"
+   ]
+  ]
+ },
+ {
+  "id": "credits-mhrtc",
+  "category": "credits",
+  "question": "How much is the multigenerational home renovation tax credit?",
+  "reference": "A refundable credit on up to $50,000 of qualifying expenditures per qualifying renovation, to a maximum credit of $7,250.",
+  "must_include": [
+   [
+    "50,000"
+   ],
+   [
+    "7,250"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-45355-mhrtc-0e05ea:0"
+   ]
+  ]
+ },
+ {
+  "id": "credits-hatc",
+  "category": "credits",
+  "question": "What is the maximum I can claim for home accessibility expenses in a year?",
+  "reference": "Up to $20,000 of eligible expenses per year.",
+  "must_include": [
+   [
+    "20,000"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-31285-home-accessibility-expenses-4cab4d:1",
+    "cra:line-31285-home-accessibility-expenses-4cab4d:3",
+    "ita:118.041:5"
+   ]
+  ]
+ },
+ {
+  "id": "credits-adoption-2026",
+  "category": "credits",
+  "question": "What is the maximum adoption expenses amount per adoption for 2026?",
+  "reference": "$19,972.",
+  "must_include": [
+   [
+    "19,972"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:1"
+   ]
+  ]
+ },
+ {
+  "id": "credits-caregiver-2026",
+  "category": "credits",
+  "question": "What is the maximum Canada caregiver amount for an infirm dependant aged 18 or older in 2026?",
+  "reference": "$8,773, reduced when the dependant’s net income exceeds $20,601.",
+  "must_include": [
+   [
+    "8,773"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:1"
+   ]
+  ]
+ },
+ {
+  "id": "credits-student-loan",
+  "category": "credits",
+  "question": "My parents paid the interest on my student loan. Who can claim it?",
+  "reference": "Only the student (the borrower legally responsible for the loan) can claim it, even when a parent paid the interest.",
+  "must_include": [],
+  "gold": [
+   [
+    "cra:line-31900-interest-paid-on-your-student-b1ecaa:0"
+   ]
+  ]
+ },
+ {
+  "id": "credits-childcare-limits",
+  "category": "credits",
+  "question": "What are the annual child care expense limits per child?",
+  "reference": "$8,000 for a child under 7, $5,000 for other eligible children, and $11,000 for a child eligible for the disability tax credit (ITA s. 63(3)).",
+  "must_include": [
+   [
+    "8,000"
+   ],
+   [
+    "5,000"
+   ],
+   [
+    "11,000"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:63:5"
+   ]
+  ],
+  "note": "Only the Act has the figures; the CRA line 21400 page is a stub."
+ },
+ {
+  "id": "credits-political",
+  "category": "credits",
+  "question": "How is the federal political contribution tax credit calculated?",
+  "reference": "75% of the first $400, 50% of the next $350, and 33 1/3% of the amount over $750, to a maximum credit of $650.",
+  "must_include": [
+   [
+    "75%"
+   ],
+   [
+    "400"
+   ],
+   [
+    "650"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:127:0"
+   ]
+  ]
+ },
+ {
+  "id": "credits-donations",
+  "category": "credits",
+  "question": "How is the charitable donation tax credit calculated?",
+  "reference": "The lowest rate applies to the first $200 of gifts; gifts above $200 get 29% (or the highest rate, 33%, to the extent income is in the top bracket).",
+  "must_include": [
+   [
+    "200"
+   ],
+   [
+    "29%"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:118.1:6"
+   ]
+  ]
+ },
+ {
+  "id": "credits-pension-amount",
+  "category": "credits",
+  "question": "What is the maximum pension income amount?",
+  "reference": "$2,000, or the eligible pension income if that is less. (The CRA page states it for the 2025 tax year; the Act gives the same $2,000 without a year.)",
+  "must_include": [
+   [
+    "2,000"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-31400-pension-income-amount-7f98a5:3",
+    "ita:118:4"
+   ]
+  ]
+ },
+ {
+  "id": "credits-cwb-2026",
+  "category": "credits",
+  "question": "What is the maximum Canada workers benefit for 2026?",
+  "reference": "$1,665 for single individuals without children and $2,869 for families.",
+  "must_include": [
+   [
+    "1,665"
+   ],
+   [
+    "2,869"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:4"
+   ]
+  ]
+ },
+ {
+  "id": "credits-oas-clawback-2026",
+  "category": "credits",
+  "question": "At what income does the OAS repayment (clawback) start in 2026?",
+  "reference": "$95,323.",
+  "must_include": [
+   [
+    "95,323"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:2"
+   ]
+  ]
+ },
+ {
+  "id": "credits-union-dues",
+  "category": "credits",
+  "question": "Can I deduct my union initiation fee along with my annual union dues?",
+  "reference": "Annual union dues are deductible on line 21200, but initiation fees are not (nor are licences, special assessments or pension charges).",
+  "must_include": [],
+  "gold": [
+   [
+    "cra:line-21200-annual-union-professional-lik-378801:0"
+   ]
+  ]
+ },
+ {
+  "id": "credits-tuition-forms",
+  "category": "credits",
+  "question": "Can I still claim the federal education and textbook amounts, and what form do I need for tuition?",
+  "reference": "The federal education and textbook credits were eliminated in 2017. Tuition is still claimable with Form T2202 (or TL11A/TL11C/TL11D) from the school.",
+  "must_include": [
+   [
+    "2017"
+   ],
+   [
+    "t2202"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-32300-your-tuition-education-textbo-b52015:0"
+   ]
+  ]
+ },
+ {
+  "id": "credits-dividend-grossup",
+  "category": "credits",
+  "question": "I received dividends from a Canadian corporation but no slip. How do I work out the taxable amount?",
+  "reference": "Multiply eligible dividends by 138% and other-than-eligible dividends by 115%.",
+  "must_include": [
+   [
+    "138%"
+   ],
+   [
+    "115%"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-12000-taxable-amount-dividends-elig-68a8ac:0"
+   ]
+  ]
+ },
+ {
+  "id": "credits-ei-low-earnings",
+  "category": "credits",
+  "question": "My insurable earnings were only $1,500. Where do I claim the EI premiums I paid?",
+  "reference": "With insurable earnings of $2,000 or less you do not claim them on line 31200; enter the premiums on line 45000 and you may get a refund.",
+  "must_include": [
+   [
+    "45000"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-31200-employment-insurance-premiums-cef010:0"
+   ]
+  ]
+ },
+ {
+  "id": "ita-117",
+  "category": "ita",
+  "question": "What tax rates does section 117 of the Income Tax Act set for individuals?",
+  "reference": "Subsection 117(2): 14%, 20.5%, 26%, 29% and 33%, on base thresholds of $57,375, $114,750, $177,882 and $253,414 (indexed yearly).",
+  "must_include": [
+   [
+    "14%"
+   ],
+   [
+    "20.5%"
+   ],
+   [
+    "26%"
+   ],
+   [
+    "29%"
+   ],
+   [
+    "33%"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:117:0"
+   ]
+  ]
+ },
+ {
+  "id": "ita-118.2",
+  "category": "ita",
+  "question": "Under subsection 118.2(1), what threshold must medical expenses exceed?",
+  "reference": "The lesser of $1,813 (indexed) and 3% of the individual’s income for the year.",
+  "must_include": [
+   [
+    "3%"
+   ],
+   [
+    "1,813"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:118.2:0"
+   ]
+  ]
+ },
+ {
+  "id": "ita-38",
+  "category": "ita",
+  "question": "Under section 38 of the ITA, what portion of a capital gain is a taxable capital gain?",
+  "reference": "One half (½) of the capital gain.",
+  "must_include": [
+   [
+    "½",
+    "half",
+    "1/2",
+    "50%"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:38:0"
+   ]
+  ]
+ },
+ {
+  "id": "ita-162",
+  "category": "ita",
+  "question": "What is the penalty under subsection 162(1) for filing a return late?",
+  "reference": "5% of the unpaid tax, plus 1% of the unpaid tax for each complete month the return is late, up to 12 months.",
+  "must_include": [
+   [
+    "5%"
+   ],
+   [
+    "1%"
+   ],
+   [
+    "12"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:162:0"
+   ]
+  ]
+ },
+ {
+  "id": "ita-163",
+  "category": "ita",
+  "question": "What is the gross negligence penalty in subsection 163(2)?",
+  "reference": "The greater of $100 and 50% of the understated tax (and overstated credits).",
+  "must_include": [
+   [
+    "50%"
+   ],
+   [
+    "100"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:163:1"
+   ]
+  ]
+ },
+ {
+  "id": "ita-230",
+  "category": "ita",
+  "question": "How long does section 230 of the Income Tax Act require records to be kept?",
+  "reference": "Generally six years from the end of the last taxation year to which they relate.",
+  "must_include": [
+   [
+    "six years",
+    "6 years",
+    "six-year"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:230:1"
+   ]
+  ]
+ },
+ {
+  "id": "ita-150",
+  "category": "ita",
+  "question": "What filing deadlines does subsection 150(1) set for individuals?",
+  "reference": "April 30 of the following year; June 15 for an individual who carried on a business (and their spouse or common-law partner).",
+  "must_include": [
+   [
+    "april 30"
+   ],
+   [
+    "june 15"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:150:1"
+   ]
+  ]
+ },
+ {
+  "id": "ita-165",
+  "category": "ita",
+  "question": "How long does an individual have to object to an assessment under section 165?",
+  "reference": "Until the later of one year after the filing-due date for the year and 90 days after the notice of assessment was sent.",
+  "must_include": [
+   [
+    "90 days"
+   ],
+   [
+    "one year",
+    "1 year"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:165:0"
+   ]
+  ]
+ },
+ {
+  "id": "ita-156.1",
+  "category": "ita",
+  "question": "What is the instalment threshold in section 156.1?",
+  "reference": "$3,000 of net tax owing ($1,800 for Quebec residents).",
+  "must_include": [
+   [
+    "3,000"
+   ],
+   [
+    "1,800"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:156.1:0"
+   ]
+  ]
+ },
+ {
+  "id": "ita-67.1",
+  "category": "ita",
+  "question": "What does section 67.1 say about deducting meals and entertainment?",
+  "reference": "The deductible amount is deemed to be 50% of the lesser of the amount paid and a reasonable amount.",
+  "must_include": [
+   [
+    "50%",
+    "50 per cent",
+    "50 %"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:67.1:0"
+   ]
+  ]
+ },
+ {
+  "id": "ita-127.51",
+  "category": "ita",
+  "question": "What rate does section 127.51 use to compute the minimum amount for alternative minimum tax?",
+  "reference": "20.5%.",
+  "must_include": [
+   [
+    "20.5%"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:127.51:0"
+   ]
+  ]
+ },
+ {
+  "id": "ita-118.05",
+  "category": "ita",
+  "question": "What does section 118.05 provide for first-time home buyers?",
+  "reference": "A credit equal to $10,000 multiplied by the appropriate percentage for the year in which a qualifying home is acquired, shared if more than one person is entitled.",
+  "must_include": [
+   [
+    "10,000"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:118.05:1"
+   ]
+  ]
+ },
+ {
+  "id": "ita-118.06",
+  "category": "ita",
+  "question": "What does section 118.06 require for the volunteer firefighter tax credit?",
+  "reference": "At least 200 hours of eligible volunteer firefighting (or search and rescue) services in the year; the credit is $6,000 times the appropriate percentage.",
+  "must_include": [
+   [
+    "200"
+   ],
+   [
+    "6,000"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:118.06:0"
+   ]
+  ]
+ },
+ {
+  "id": "ita-2",
+  "category": "ita",
+  "question": "Who has to pay income tax according to section 2 of the Income Tax Act?",
+  "reference": "Every person resident in Canada at any time in the year pays tax on taxable income; non-residents who were employed in Canada, carried on business in Canada or disposed of taxable Canadian property pay tax on taxable income earned in Canada.",
+  "must_include": [],
+  "gold": [
+   [
+    "ita:2:0"
+   ]
+  ]
+ },
+ {
+  "id": "howto-due-date",
+  "category": "howto",
+  "question": "When is my 2025 tax return due?",
+  "reference": "April 30, 2026 for most people; June 15, 2026 for self-employed people and their spouses or partners, though any balance owing is still due April 30, 2026.",
+  "must_include": [
+   [
+    "april 30, 2026"
+   ],
+   [
+    "june 15, 2026"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:5000-g-b50aed:4"
+   ]
+  ]
+ },
+ {
+  "id": "howto-change-return",
+  "category": "howto",
+  "question": "I made a mistake on a return I already filed. How do I fix it?",
+  "reference": "Request a change: with ReFILE (if the return was filed electronically with certified software), with Change my return in your CRA account, or by mailing Form T1-ADJ.",
+  "must_include": [
+   [
+    "refile"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:5000-g-b50aed:18"
+   ]
+  ]
+ },
+ {
+  "id": "howto-interest",
+  "category": "howto",
+  "question": "If I owe tax for 2025 and pay late, how does the CRA charge interest?",
+  "reference": "Compound daily interest on the unpaid amount, starting the day after the balance is due.",
+  "must_include": [
+   [
+    "compound daily",
+    "compounded daily"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:5000-g-b50aed:5"
+   ]
+  ]
+ },
+ {
+  "id": "howto-split-pension",
+  "category": "howto",
+  "question": "How do my spouse and I elect to split pension income?",
+  "reference": "Jointly complete Form T1032, Joint Election to Split Pension Income. The transferring spouse deducts the elected amount on line 21000 and the receiving spouse reports it on line 11600.",
+  "must_include": [
+   [
+    "t1032"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-21000-deduction-elected-split-pensi-b7dc36:0",
+    "cra:line-11600-elected-split-pension-amount-7db9c3:0"
+   ]
+  ]
+ },
+ {
+  "id": "howto-fhsa-deduction",
+  "category": "howto",
+  "question": "Where on my return do I claim my FHSA deduction?",
+  "reference": "Complete Schedule 15 and enter the result on line 20805.",
+  "must_include": [
+   [
+    "20805"
+   ],
+   [
+    "schedule 15"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-20805-fhsa-deduction-2e99d8:0"
+   ]
+  ]
+ },
+ {
+  "id": "howto-refund",
+  "category": "howto",
+  "question": "How do I work out whether I get a refund on my return?",
+  "reference": "Subtract line 48200 from line 43500; if the result is negative you have a refund, entered on line 48400. The CRA generally does not refund a difference of $2 or less.",
+  "must_include": [
+   [
+    "48400"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-48400-refund-dd565e:0"
+   ]
+  ]
+ },
+ {
+  "id": "howto-instalments",
+  "category": "howto",
+  "question": "Why would I have to pay tax by instalments, and where do I report them?",
+  "reference": "If you earn income with no or not enough tax withheld (rental, investment, self-employment, some pensions, more than one job) you may have to pay instalments during the year; report the total paid on line 47600.",
+  "must_include": [
+   [
+    "47600"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-47600-tax-paid-instalments-303f7b:0"
+   ]
+  ]
+ },
+ {
+  "id": "howto-medical-period",
+  "category": "howto",
+  "question": "What period can I use when claiming medical expenses on my 2025 return?",
+  "reference": "Any 12-month period ending in 2025, for expenses not claimed in 2024.",
+  "must_include": [
+   [
+    "12-month",
+    "12 month",
+    "twelve-month",
+    "12 months"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:lines-33099-33199-eligible-medical-expen-648536:0"
+   ]
+  ]
+ },
+ {
+  "id": "howto-disability-transfer",
+  "category": "howto",
+  "question": "My adult son qualifies for the disability tax credit but doesn't need it all. Can I use it?",
+  "reference": "Yes. A dependant who does not need all of the disability amount can transfer the unused part to you; claim it on line 31800.",
+  "must_include": [
+   [
+    "31800"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-31800-disability-amount-transferred-9db6b3:0"
+   ]
+  ]
+ },
+ {
+  "id": "howto-moving-distance",
+  "category": "howto",
+  "question": "How much closer to my new job does my new home have to be to claim moving expenses?",
+  "reference": "At least 40 kilometres closer (by the shortest usual public route).",
+  "must_include": [
+   [
+    "40 kilomet",
+    "40 km"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-21900-moving-expenses-7f0a07:0",
+    "cra:line-21900-moving-expenses-7f0a07:2"
+   ]
+  ]
+ },
+ {
+  "id": "multi-rrsp-tfsa",
+  "category": "multi",
+  "question": "What are the RRSP and TFSA limits for 2026, and when is the RRSP contribution deadline for that year?",
+  "reference": "RRSP dollar limit $33,810; TFSA dollar limit $7,000; RRSP deadline March 1, 2027.",
+  "must_include": [
+   [
+    "33,810"
+   ],
+   [
+    "7,000"
+   ],
+   [
+    "march 1, 2027",
+    "march 1st, 2027"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:mp-rrsp-dpsp-tfsa-limits-ympe-bf9cc6:0"
+   ],
+   [
+    "cra:mp-rrsp-dpsp-tfsa-limits-ympe-bf9cc6:1",
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:2"
+   ],
+   [
+    "cra:line-20800-rrsp-deduction-068938:0"
+   ]
+  ]
+ },
+ {
+  "id": "multi-cpp-ei",
+  "category": "multi",
+  "question": "What is the most CPP and EI that can be deducted from an employee in 2026?",
+  "reference": "CPP: $4,230.45 (plus second additional contributions on earnings above $74,600). EI: $1,123.07.",
+  "must_include": [
+   [
+    "4,230.45"
+   ],
+   [
+    "1,123.07"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:cpp-contribution-rates-maximums-exemptio-34bc27:0"
+   ],
+   [
+    "cra:ei-premium-rates-maximums-5feb1f:0"
+   ]
+  ]
+ },
+ {
+  "id": "multi-senior",
+  "category": "multi",
+  "question": "I turn 65 in 2026. What is the age amount, and at what income does OAS start being clawed back?",
+  "reference": "Age amount $9,208 (reduced above net income of $46,432); OAS repayment threshold $95,323.",
+  "must_include": [
+   [
+    "9,208"
+   ],
+   [
+    "95,323"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:1"
+   ],
+   [
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:2"
+   ]
+  ]
+ },
+ {
+  "id": "multi-tfsa-history",
+  "category": "multi",
+  "question": "How has the TFSA dollar limit changed between 2023 and 2026?",
+  "reference": "$6,500 in 2023, then $7,000 in 2024, 2025 and 2026.",
+  "must_include": [
+   [
+    "6,500"
+   ],
+   [
+    "7,000"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:mp-rrsp-dpsp-tfsa-limits-ympe-bf9cc6:1",
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:2"
+   ]
+  ]
+ },
+ {
+  "id": "multi-on-100k",
+  "category": "multi",
+  "question": "I live in Ontario with $100,000 of taxable income in 2026. Which federal and Ontario brackets does my last dollar fall in?",
+  "reference": "Federal 20.5% bracket ($58,523 to $117,045) and Ontario 9.15% bracket ($53,891 to $107,785).",
+  "must_include": [
+   [
+    "20.5%"
+   ],
+   [
+    "9.15%"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:0"
+   ],
+   [
+    "cra:current-year-9f1089:1"
+   ]
+  ]
+ },
+ {
+  "id": "ambig-how-much-tax",
+  "category": "multi",
+  "question": "How much tax will I pay?",
+  "reference": "It depends on facts not given: taxable income, province or territory of residence, and credits. A good answer says so and names those facts. It may outline the 2026 federal brackets or work an example on an income it clearly labels as assumed, but must not present any figure as this person’s own tax.",
+  "must_include": [],
+  "gold": [],
+  "note": "Ambiguous on purpose: judged on naming the facts that matter."
+ },
+ {
+  "id": "ambig-limit",
+  "category": "multi",
+  "question": "What's the limit this year?",
+  "reference": "The question does not say which limit. A good answer says so and either names what it would need or lists the main 2026 limits it has (for example TFSA $7,000, RRSP $33,810).",
+  "must_include": [],
+  "gold": [],
+  "note": "Ambiguous on purpose."
+ },
+ {
+  "id": "ambig-deadline",
+  "category": "multi",
+  "question": "When is the deadline?",
+  "reference": "The question does not say which deadline. A good answer says so, and may give the main ones in its material (for example April 30 filing and payment, June 15 for the self-employed, RRSP March 1, 2027) each tied to what it is for.",
+  "must_include": [],
+  "gold": [],
+  "note": "Ambiguous on purpose."
+ },
+ {
+  "id": "phrasing-tfsa-typo",
+  "category": "phrasing",
+  "question": "wats the tsfa limt for 2026",
+  "reference": "$7,000.",
+  "must_include": [
+   [
+    "7,000"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:mp-rrsp-dpsp-tfsa-limits-ympe-bf9cc6:1",
+    "cra:adjustment-personal-income-tax-benefit-a-8ba593:2"
+   ]
+  ]
+ },
+ {
+  "id": "phrasing-rrsp-typo",
+  "category": "phrasing",
+  "question": "how much can i put in my rsp this yr (2026)??",
+  "reference": "The 2026 RRSP dollar limit is $33,810 (a person’s own limit also depends on earned income and unused room).",
+  "must_include": [
+   [
+    "33,810"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:mp-rrsp-dpsp-tfsa-limits-ympe-bf9cc6:0"
+   ]
+  ]
+ },
+ {
+  "id": "phrasing-brackets-typo",
+  "category": "phrasing",
+  "question": "fedral tax brakets 2026 canda",
+  "reference": "14% up to $58,523; 20.5% to $117,045; 26% to $181,440; 29% to $258,482; 33% above.",
+  "must_include": [
+   [
+    "14%"
+   ],
+   [
+    "58,523"
+   ],
+   [
+    "33%"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:0"
+   ]
+  ]
+ },
+ {
+  "id": "phrasing-toronto",
+  "category": "phrasing",
+  "question": "im in toronto making 60k, whats the ontario tax rate on that",
+  "reference": "Ontario 2026: 5.05% on the first $53,891 and 9.15% on the part between $53,891 and $107,785, so the top slice of $60,000 is taxed at 9.15%.",
+  "must_include": [
+   [
+    "9.15%"
+   ],
+   [
+    "5.05%"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:current-year-9f1089:1"
+   ]
+  ]
+ },
+ {
+  "id": "phrasing-late",
+  "category": "phrasing",
+  "question": "what happens if i file my taxes late",
+  "reference": "If you owe tax, the late-filing penalty is 5% of the unpaid tax plus 1% for each complete month the return is late, up to 12 months. Interest on the unpaid balance is also charged.",
+  "must_include": [
+   [
+    "5%"
+   ]
+  ],
+  "gold": [
+   [
+    "ita:162:0"
+   ]
+  ]
+ },
+ {
+  "id": "phrasing-receipts",
+  "category": "phrasing",
+  "question": "how long do i gotta keep my receipts for taxes",
+  "reference": "At least six years.",
+  "must_include": [
+   [
+    "six years",
+    "6 years",
+    "six-year"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-22900-other-employment-expenses-eb3d02:29",
+    "cra:line-25500-northern-residents-deductions-7fcf8e:20",
+    "ita:230:1"
+   ]
+  ]
+ },
+ {
+  "id": "phrasing-moving",
+  "category": "phrasing",
+  "question": "i moved cities for a new job, can i write off the moving truck",
+  "reference": "Possibly: moving expenses are deductible from income earned at the new location if the new home is at least 40 kilometres closer to the new workplace.",
+  "must_include": [
+   [
+    "40 kilomet",
+    "40 km"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-21900-moving-expenses-7f0a07:0",
+    "cra:line-21900-moving-expenses-7f0a07:2"
+   ]
+  ]
+ },
+ {
+  "id": "phrasing-firefighter",
+  "category": "phrasing",
+  "question": "volunter firefighter tax break, how many hours do i need",
+  "reference": "At least 200 hours of eligible volunteer service in the year; the amount is $6,000.",
+  "must_include": [
+   [
+    "200"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:line-31220-volunteer-firefighters-amount-d0f40e:0",
+    "ita:118.06:0"
+   ]
+  ]
+ },
+ {
+  "id": "phrasing-ei-typo",
+  "category": "phrasing",
+  "question": "max ei premum for employees 2026",
+  "reference": "$1,123.07 (1.63% of maximum insurable earnings of $68,900).",
+  "must_include": [
+   [
+    "1,123.07"
+   ]
+  ],
+  "gold": [
+   [
+    "cra:ei-premium-rates-maximums-5feb1f:0"
+   ]
+  ]
+ },
+ {
+  "id": "phrasing-first-home",
+  "category": "phrasing",
+  "question": "buying my first place next year. what tax stuff helps me out",
+  "reference": "The home buyers’ amount: a non-refundable credit based on $10,000 for buying a qualifying first home. Also mentioning the FHSA or the RRSP Home Buyers’ Plan is welcome but not required.",
+  "must_include": [],
+  "gold": [
+   [
+    "cra:line-31270-home-buyers-amount-84f427:0",
+    "cra:line-31270-home-buyers-amount-84f427:1",
+    "cra:line-31270-home-buyers-amount-84f427:2",
+    "ita:118.05:1",
+    "cra:line-20805-fhsa-deduction-2e99d8:0"
+   ]
+  ],
+  "note": "Open-ended plain-language question; judged against the reference loosely."
+ }
+]

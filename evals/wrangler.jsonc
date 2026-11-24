@@ -1,0 +1,22 @@
+{
+  // Local-only Worker for the eval suite (see evals/worker.ts and the "Evals"
+  // section of the README). Run it with `npm run eval:server`; never deploy it.
+  // It has no route, no workers.dev address, no rate limiter and no daily counter,
+  // and it shares nothing with the deployed Worker except the search index and
+  // the embedding model, which it only reads.
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "taxgpt-evals",
+  "main": "worker.ts",
+  "compatibility_date": "2026-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+  "preview_urls": false,
+  "dev": { "port": 8799 },
+
+  "ai": { "binding": "AI", "remote": true },
+  "vectorize": [{ "binding": "VECTORIZE", "index_name": "taxgpt", "remote": true }]
+
+  // No vars or secrets here. evals/run.ts sends the API key (read from .dev.vars),
+  // the model and the effort (read from the main wrangler.jsonc) with each
+  // request, so the evals always test the settings that are deployed.
+}

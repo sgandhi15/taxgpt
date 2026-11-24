@@ -10,5 +10,5 @@
     "skipLibCheck": true,
     "isolatedModules": true
   },
-  "include": [".", "../src/shared.ts", "../src/sections.ts", "../src/untrusted.ts", "../tests"]
+  "include": [".", "../src/shared.ts", "../src/sections.ts", "../src/untrusted.ts", "../tests/chunk.test.ts", "../tests/cra.test.ts", "../tests/ita.test.ts", "../tests/sections.test.ts", "../tests/untrusted.test.ts"]
 }
